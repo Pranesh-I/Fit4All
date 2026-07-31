@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "72448356182",
+    "project_id": "sai-sports-talent",
+    "storage_bucket": "sai-sports-talent.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72448356182:android:702a6cb0836cf8296770f7",
+        "android_client_info": {
+          "package_name": "com.example.sai_sports_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWdnvp08aHNx0T0GpOgARDmfu0zqq1rpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

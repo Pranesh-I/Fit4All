@@ -1,0 +1,150 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# =========================
+# OS / SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+
+# =========================
+# ENV FILES (SECRETS)
+# =========================
+.env
+.env.*
+!.env.example
+
+# Firebase service account
+firebase-service-account.json
+
+# =========================
+# PYTHON (FASTAPI BACKEND)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# =========================
+# DATABASE FILES
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# FASTAPI CACHE / TEMP
+# =========================
+.cache/
+*.pid
+
+# =========================
+# FLUTTER / DART
+# =========================
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+.dart_tool/
+
+# Flutter generated
+ios/Pods/
+ios/Runner.xcworkspace
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# =========================
+# IDE FILES
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# MACOS / LINUX / WINDOWS BUILD
+# =========================
+macos/Flutter/GeneratedPluginRegistrant.swift
+linux/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.cc
+
+# =========================
+# TFLITE MODEL (OPTIONAL)
+# keep if large file tracked elsewhere
+# =========================
+# assets/models/facenet.tflite
+
+# =========================
+# TEMP FILES
+# =========================
+*.tmp
+*.swp
+*.swo
+backend/firebase-service-account.json
+flutter/assets/models/facenet.tflite
+.env

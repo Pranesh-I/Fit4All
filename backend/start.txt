@@ -1,0 +1,5 @@
+flutter pub add firebase_core
+flutter pub add firebase_auth
+flutter run
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000 --log-level debug

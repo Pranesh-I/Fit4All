@@ -1,0 +1,142 @@
+# =====================================================
+# FIT4ALL - .gitignore
+# Flutter + FastAPI + React + Python
+# =====================================================
+
+# =====================================================
+# OS FILES
+# =====================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+
+# =====================================================
+# ENVIRONMENT / SECRETS
+# =====================================================
+.env
+.env.*
+!.env.example
+
+# Firebase / Google credentials
+backend/firebase-service-account.json
+**/firebase-service-account.json
+google-services.json
+GoogleService-Info.plist
+
+# =====================================================
+# PYTHON
+# =====================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Python build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# =====================================================
+# DATABASES
+# =====================================================
+*.sqlite3
+*.db
+
+# =====================================================
+# NODE / REACT
+# =====================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# React/Vite build
+dist/
+.vite/
+
+# =====================================================
+# FLUTTER / DART
+# =====================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+coverage/
+
+# Flutter build
+build/
+
+# Flutter generated
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Android
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+ios/Runner.xcworkspace
+
+# Generated registrants
+macos/Flutter/GeneratedPluginRegistrant.swift
+linux/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.cc
+
+# =====================================================
+# JAVA / KOTLIN
+# =====================================================
+*.class
+*.jar
+*.war
+*.ear
+
+# =====================================================
+# IDE FILES
+# =====================================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# =====================================================
+# TEMP FILES
+# =====================================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*.pid
+
+# =====================================================
+# AI / ML MODELS
+# =====================================================
+flutter/assets/models/facenet.tflite
+
+# =====================================================
+# MISC
+# =====================================================
+.history/
+.svn/
+.atom/
+.swiftpm/
